@@ -4,11 +4,11 @@ int choice, pin, k;
 char transaction = 'y';
 void main()
 {
-  while (pin != 1520)
+  while (pin != 2000)
   {
     printf("ENTER YOUR SECRET PIN NUMBER:");
     scanf("%d", & pin);
-    if (pin != 1520)
+    if (pin != 2000)
       printf("PLEASE ENTER VALID PASSWORD! \a\n");
   }
   do
